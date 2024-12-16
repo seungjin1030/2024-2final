@@ -1,0 +1,1956 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JeonjuCraftGoR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftGoR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.frame-10,
+.frame-10 * {
+  box-sizing: border-box;
+}
+.frame-10 {
+  background: #ffffff;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.box1 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 1353px;
+  top: 233px;
+  filter: blur(2px);
+}
+.box2 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 777px;
+  top: 233px;
+  filter: blur(2px);
+}
+.box3 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 201px;
+  top: 233px;
+  filter: blur(2px);
+}
+.box4 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 429px;
+  height: 165px;
+  position: absolute;
+  left: 201px;
+  top: 34px;
+  filter: blur(2px);
+}
+.box5 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 374px;
+  height: 165px;
+  position: absolute;
+  left: 681px;
+  top: 34px;
+  filter: blur(2px);
+}
+.box6 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 311px;
+  height: 165px;
+  position: absolute;
+  left: 1106px;
+  top: 34px;
+  filter: blur(2px);
+}
+.box7 {
+  background: #ffddde;
+  border-radius: 20px;
+  width: 419px;
+  height: 165px;
+  position: absolute;
+  left: 1465px;
+  top: 34px;
+  filter: blur(2px);
+}
+.box8 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 237, 237, 1) 0%,
+    rgba(255, 205, 206, 1) 100%
+  );
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 1364px;
+  top: 222px;
+}
+.box9 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 237, 237, 1) 0%,
+    rgba(255, 205, 206, 1) 100%
+  );
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 788px;
+  top: 222px;
+}
+.box10 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 237, 237, 1) 0%,
+    rgba(255, 205, 206, 1) 100%
+  );
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 530px;
+  height: 816px;
+  position: absolute;
+  left: 212px;
+  top: 222px;
+}
+.box11 {
+  background: #ffebeb;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 429px;
+  height: 157px;
+  position: absolute;
+  left: 210px;
+  top: 32px;
+}
+.box12 {
+  background: #ffebeb;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 374px;
+  height: 157px;
+  position: absolute;
+  left: 689px;
+  top: 32px;
+}
+.box13 {
+  background: #ffebeb;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 311px;
+  height: 157px;
+  position: absolute;
+  left: 1113px;
+  top: 32px;
+}
+.box14 {
+  background: #ffebeb;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffb7b7;
+  border-width: 1px;
+  width: 419px;
+  height: 157px;
+  position: absolute;
+  left: 1474px;
+  top: 32px;
+}
+.title1 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 255px;
+  top: 60px;
+}
+.title2 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 736px;
+  top: 60px;
+}
+.title3 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 1161px;
+  top: 60px;
+}
+.title4 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 1519px;
+  top: 60px;
+}
+.title5 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 232px;
+  top: 236px;
+}
+.title6 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 808px;
+  top: 236px;
+}
+.title7 {
+  color: #000;
+  font-family: SUIT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 1384px;
+  top: 236px;
+}
+._2005 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 293px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20052 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 871px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20053 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1447px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._2010 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 455.41px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20102 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1033.41px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20103 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1609.41px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._2020 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 620.48px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20202 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1198.48px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20203 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1774.48px;
+  top: 690px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._2021 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 377px;
+  top: 858px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20212 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 952px;
+  top: 858px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20213 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1527px;
+  top: 858px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._2022 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 540px;
+  top: 860px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20222 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1115px;
+  top: 860px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._20223 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1690px;
+  top: 860px;
+  transform-origin: 0 0;
+  transform: scale(1, 1);
+}
+._1254 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 322.86px;
+  top: 835.66px;
+}
+._1090 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 483.86px;
+  top: 835.66px;
+}
+._700 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 406.86px;
+  top: 1003.66px;
+}
+._660 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 570.86px;
+  top: 1003.66px;
+}
+._712 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 651.86px;
+  top: 835.66px;
+}
+._2659 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 893.86px;
+  top: 835.66px;
+}
+._2457 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1473.86px;
+  top: 835.66px;
+}
+._2402 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1057.86px;
+  top: 835.66px;
+}
+._20104 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1636.86px;
+  top: 835.66px;
+}
+._1299 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1222.86px;
+  top: 835.66px;
+}
+._1069 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1801.86px;
+  top: 835.66px;
+}
+._11238 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 973.86px;
+  top: 1003.66px;
+}
+._978 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1555.86px;
+  top: 1003.66px;
+}
+._1171 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1139.86px;
+  top: 1003.66px;
+}
+._11712 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1715.86px;
+  top: 1003.66px;
+}
+._11935 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 322.86px;
+  top: 819px;
+}
+._13648 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 483.86px;
+  top: 819px;
+}
+._8751 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 406.86px;
+  top: 987px;
+}
+._8714 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 570.86;
+  top: 987px;
+}
+._9901 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 651.86px;
+  top: 819px;
+}
+._283005 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 893.86px;
+  top: 819px;
+}
+._47282 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1473.86px;
+  top: 819px;
+}
+._259110 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1222.86px;
+  top: 819px;
+}
+._37180 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1801.86px;
+  top: 819px;
+}
+._288402 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1057.86px;
+  top: 819px;
+}
+._50396 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1636.86px;
+  top: 819px;
+}
+._256674 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 973.86px;
+  top: 987px;
+}
+._36182 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1555.86px;
+  top: 987px;
+}
+._234722 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1715.86px;
+  top: 987px;
+}
+._2347222 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1139.86px;
+  top: 987px;
+}
+.div4 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 232px;
+  top: 655px;
+}
+.div5 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 808px;
+  top: 655px;
+}
+.div6 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1384px;
+  top: 655px;
+}
+.rectangle-75 {
+  background: #ff6588;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 619.24px;
+  top: 499.23px;
+}
+.rectangle-171 {
+  background: #ff6588;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1200px;
+  top: 499.23px;
+}
+.rectangle-176 {
+  background: #ff6588;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1768px;
+  top: 499.18px;
+}
+.rectangle-76 {
+  background: #ff819e;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 619.24px;
+  top: 517.59px;
+}
+.rectangle-172 {
+  background: #ff819e;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1200px;
+  top: 517.59px;
+}
+.rectangle-177 {
+  background: #ff819e;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1768px;
+  top: 517.54px;
+}
+.rectangle-77 {
+  background: #ff406c;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 619.24px;
+  top: 535.94px;
+}
+.rectangle-173 {
+  background: #ff406c;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1200px;
+  top: 535.94px;
+}
+.rectangle-178 {
+  background: #ff406c;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1768px;
+  top: 535.89px;
+}
+.rectangle-78 {
+  background: #ffb5c6;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 619.24px;
+  top: 554.3px;
+}
+.rectangle-174 {
+  background: #ffb5c6;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1200px;
+  top: 554.3px;
+}
+.rectangle-179 {
+  background: #ffb5c6;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1768px;
+  top: 554.25px;
+}
+.rectangle-79 {
+  background: #ffa4b9;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 619.24px;
+  top: 572.65px;
+}
+.rectangle-175 {
+  background: #ffa4b9;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1200px;
+  top: 572.65px;
+}
+.rectangle-180 {
+  background: #ffa4b9;
+  width: 31.38px;
+  height: 12.43px;
+  position: absolute;
+  left: 1768px;
+  top: 572.6px;
+}
+.div7 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 656.91px;
+  top: 499.05px;
+}
+.div8 {
+  color: #000000;
+  text-align: left;
+  font-family: "JeonjuCraftGo-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 1237.67px;
+  top: 499.05px;
+}
+.div9 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1805.67px;
+  top: 499px;
+}
+.div10 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 656.91px;
+  top: 517.4px;
+}
+.div11 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1237.67px;
+  top: 517.4px;
+}
+.div12 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1805.67px;
+  top: 517.35px;
+}
+.div13 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 656.91px;
+  top: 536.94px;
+}
+.div14 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1237.67px;
+  top: 536.94px;
+}
+.div15 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1805.67px;
+  top: 536.89px;
+}
+.div16 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 656.91px;
+  top: 555.3px;
+}
+.div17 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1237.67px;
+  top: 555.3px;
+}
+.div18 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1805.67px;
+  top: 555.25px;
+}
+.div19 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 656.91px;
+  top: 573.06px;
+}
+.div20 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1237.67px;
+  top: 573.06px;
+}
+.div21 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1805.67px;
+  top: 573.01px;
+}
+.div22 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 281.72px;
+  top: 819px;
+}
+.div23 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 442.72px;
+  top: 819px;
+}
+.div24 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 365.72px;
+  top: 987px;
+}
+.div25 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 529.72px;
+  top: 987px;
+}
+.div26 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 610.72px;
+  top: 819px;
+}
+.div27 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1181.72px;
+  top: 819px;
+}
+.div28 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1760.72px;
+  top: 819px;
+}
+.div29 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 852.72px;
+  top: 819px;
+}
+.div30 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1432.72px;
+  top: 819px;
+}
+.div31 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1016.72px;
+  top: 819px;
+}
+.div32 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1595.72px;
+  top: 819px;
+}
+.div33 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 932.72px;
+  top: 987px;
+}
+.div34 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1514.72px;
+  top: 987px;
+}
+.div35 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1098.72px;
+  top: 987px;
+}
+.div36 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1674.72px;
+  top: 987px;
+}
+.div37 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 281.72px;
+  top: 835.66px;
+}
+.div38 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 442.72px;
+  top: 835.66px;
+}
+.div39 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 365.72px;
+  top: 1003.66px;
+}
+.div40 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 529.72px;
+  top: 1003.66px;
+}
+.div41 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1181.72px;
+  top: 835.66px;
+}
+.div42 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1760.72px;
+  top: 835.66px;
+}
+.div43 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 610.72px;
+  top: 835.66px;
+}
+.div44 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 852.72px;
+  top: 835.66px;
+}
+.div45 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1432.72px;
+  top: 835.66px;
+}
+.div46 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1016.72px;
+  top: 835.66px;
+}
+.div47 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1595.72px;
+  top: 835.66px;
+}
+.div48 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 932.72px;
+  top: 1003.66px;
+}
+.div49 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1514.72px;
+  top: 1003.66px;
+}
+.div50 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1098.72px;
+  top: 1003.66px;
+}
+.div51 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 11.756px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1674.72px;
+  top: 1003.66px;
+}
+.rectangle-80 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 268px;
+  top: 819.98px;
+}
+.rectangle-181 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 429px;
+  top: 819.98px;
+}
+.rectangle-185 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 352px;
+  top: 987.98px;
+}
+.rectangle-193 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1168px;
+  top: 819.98px;
+}
+.rectangle-199 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1747px;
+  top: 819.98px;
+}
+.rectangle-187 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 516px;
+  top: 987.98px;
+}
+.rectangle-183 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 597px;
+  top: 819.98px;
+}
+.rectangle-189 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 839px;
+  top: 819.98px;
+}
+.rectangle-200 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1419px;
+  top: 819.98px;
+}
+.rectangle-191 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1003px;
+  top: 819.98px;
+}
+.rectangle-201 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1582px;
+  top: 819.98px;
+}
+.rectangle-195 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 919px;
+  top: 987.98px;
+}
+.rectangle-205 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1501px;
+  top: 987.98px;
+}
+.rectangle-197 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1085px;
+  top: 987.98px;
+}
+.rectangle-206 {
+  background: #ffa4b9;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1661px;
+  top: 987.98px;
+}
+.rectangle-81 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 268px;
+  top: 836.63px;
+}
+.rectangle-182 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 429px;
+  top: 836.63px;
+}
+.rectangle-194 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1168px;
+  top: 836.63px;
+}
+.rectangle-202 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1747px;
+  top: 836.63px;
+}
+.rectangle-186 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 352px;
+  top: 1004.63px;
+}
+.rectangle-188 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 516px;
+  top: 1004.63px;
+}
+.rectangle-184 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 597px;
+  top: 836.63px;
+}
+.rectangle-190 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 839px;
+  top: 836.63px;
+}
+.rectangle-203 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1419px;
+  top: 836.63px;
+}
+.rectangle-192 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1003px;
+  top: 836.63px;
+}
+.rectangle-204 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1582px;
+  top: 836.63px;
+}
+.rectangle-196 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 919px;
+  top: 1004.63px;
+}
+.rectangle-207 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1501px;
+  top: 1004.63px;
+}
+.rectangle-198 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1085px;
+  top: 1004.63px;
+}
+.rectangle-208 {
+  background: #ff406c;
+  border-radius: 3.92px;
+  width: 10.78px;
+  height: 10.78px;
+  position: absolute;
+  left: 1661px;
+  top: 1004.63px;
+}
+.div52 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 232px;
+  top: 292px;
+}
+.div53 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 808px;
+  top: 292px;
+}
+.div54 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1384px;
+  top: 292px;
+}
+._14-16 {
+  color: #ff406c;
+  font-family: JeonjuCraft_Go;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 257px;
+  top: 101px;
+  -webkit-text-stroke: 1px #ff406c;
+}
+.div59 {
+  color: #ff406c;
+  font-family: JeonjuCraft_Go;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 736px;
+  top: 101px;
+  -webkit-text-stroke: 1px #ff406c;
+}
+._198-296 {
+  color: #ff406c;
+  font-family: JeonjuCraft_Go;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1161px;
+  top: 101px;
+  -webkit-text-stroke: 1px #ff406c;
+}
+.div60 {
+  color: #ff406c;
+  font-family: JeonjuCraft_Go;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 1519px;
+  top: 101px;
+  -webkit-text-stroke: 1px #ff406c;
+}
+._23-429 {
+  color: #ff5457;
+  font-family: JeonjuCraft_Go;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 443px;
+  top: 111px;
+  -webkit-text-stroke: 1px #ff5457;
+}
+._32-814 {
+  color: #ff5457;
+  font-family: JeonjuCraft_Go;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 846px;
+  top: 111px;
+  -webkit-text-stroke: 1px #ff5457;
+}
+.div61 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 404px;
+  top: 128px;
+}
+.div62 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 787px;
+  top: 128px;
+}
+.div63 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 574px;
+  top: 128px;
+}
+.div64 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 975px;
+  top: 128px;
+}
+.div65 {
+  color: #000;
+  font-family: JeonjuCraft_Go;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 1359px;
+  top: 128px;
+}
+.rectangle-124 {
+  background: #ffddde;
+  border-radius: 0px 40px 98px 0px;
+  width: 203.05px;
+  height: 1255.64px;
+  position: absolute;
+  left: -71px;
+  top: -33px;
+}
+.rectangle-1242 {
+  background: #ffebeb;
+  border-radius: 0px 40px 98px 0px;
+  width: 196px;
+  height: 1242.32px;
+  position: absolute;
+  left: -66px;
+  top: -33px;
+}
+.div66 {
+  color: #2e2e2e;
+  font-family: SUIT;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: normal;
+  position: absolute;
+  left: 36px;
+  top: 420px;
+}
+.div67 {
+  color: #2e2e2e;
+  font-family: SUIT;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: normal;
+  position: absolute;
+  left: 36px;
+  top: 474px;
+}
+.div68 {
+  color: #a60003;
+  font-family: SUIT;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 17px;
+  top: 525px;
+}
+.img-container {
+  position: absolute;
+  top: 219px;
+}
+.img-container2 {
+  position: absolute;
+  top: 280px;
+}
+.img-container3 {
+  position: absolute;
+  top: 337px;
+  left: 235px;
+}
+.img-container4 {
+  position: absolute;
+  top: 337px;
+  left: 811px;
+}
+.img-container5 {
+  position: absolute;
+  top: 348px;
+  left: 1415px;
+}
+.img-container6 {
+  position: absolute;
+  top: 712px;
+  left: 261px;
+}
+.img-container7 {
+  position: absolute;
+  top: 712px;
+  left: 839px;
+}
+.img-container8 {
+  position: absolute;
+  top: 712px;
+  left: 1415px;
+}
